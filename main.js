@@ -75,7 +75,8 @@ function selectDate(date) {
 
 window.onload = () => {
     updateTime();
-    if(localStorage.getItem('theme') == undefined) { return deleteLoadingScreen(); }
-    changeTheme(localStorage.getItem('theme'));
+    //if(localStorage.getItem('theme') == undefined) { return deleteLoadingScreen(); }
+    //changeTheme(localStorage.getItem('theme'));
+    changeTheme(3);
     deleteLoadingScreen();
 }
