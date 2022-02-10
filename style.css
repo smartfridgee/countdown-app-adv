@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    height: 100%;
+    //height: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     background-image: url('media/tree-white-bak.jpg');
     background-size: cover;
